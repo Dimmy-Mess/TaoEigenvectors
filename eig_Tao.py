@@ -19,7 +19,7 @@ def avoiding_product(lambda_i, lambdas_list,avoid):
     return r
 
 
-def new_method(A):
+def Tao_eigenvectors(A):
     eigenvectors = []
     
     eigenvalues = lg.eigh(A, eigvals_only=True)

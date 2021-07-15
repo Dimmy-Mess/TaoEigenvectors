@@ -1,6 +1,6 @@
 import numpy as np
-from eig_Tao import new_method
+from eig_Tao import Tao_eigenvectors
 
 A = np.array([[1,1,-1],[1,3,1],[-1,1,3]])
 
-print(new_method(A))
+print(Tao_eigenvectors(A))
